@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.covid19tracker">
+    <!-- Allow Internet Permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Covid19Tracker"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".FrontPage.FrontActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CovidVaccineLocation.Vaccine.VaccineResultActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HealthStatus.PDFActivity"
+            android:exported="true" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".CovidVaccineLocation.CovidVaccineLocation" />
+        <activity android:name=".LoginForm.ForgetPassword.ForgetPassword" />
+        <activity android:name=".LoginForm.Registration.RegistrationActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity android:name=".LoginForm.LoginActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize"/>
+    </application>
+
+</manifest>

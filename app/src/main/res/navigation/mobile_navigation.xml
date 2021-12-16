@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation.xml"
+    app:startDestination="@id/navigation_covid_cases">
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.covid19tracker.Profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile"/>
+
+    <fragment
+        android:id="@+id/navigation_covid_cases"
+        android:name="com.example.covid19tracker.CovidCases.CovidCasesFragment"
+        android:label="CovidCases"
+        tools:layout="@layout/fragment_covid_cases"/>
+
+
+    <activity
+        android:id="@+id/navigation_vaccination"
+        android:name="com.example.covid19tracker.CovidVaccineLocation.CovidVaccineLocation"
+        android:label="Vaccination"
+        tools:layout="@layout/activity_covid_vaccine_location"/>
+
+    <fragment
+        android:id="@+id/navigation_Covid_healthStatus"
+        android:name="com.example.covid19tracker.HealthStatus.HealthStatusFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_health_status"/>
+
+
+</navigation>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/Covid19Tracker/app/src/main/res/layout/activity_front.xml" value="0.1" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/drawable/age.xml" value="0.2203125" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/drawable/certificate.xml" value="0.1109375" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/drawable/covid_background.xml" value="0.1109375" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/drawable/edit_text_background.xml" value="0.1109375" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/drawable/eye_button_status.xml" value="0.2203125" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/drawable/layout_background.xml" value="0.1109375" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/drawable/layout_background2.xml" value="0.1109375" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/drawable/round_corners.xml" value="0.1109375" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/layout/activity_covid_vaccine_location.xml" value="0.1" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/layout/activity_front.xml" value="0.10461956521739131" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/layout/activity_login.xml" value="0.15" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/layout/activity_pdfactivity.xml" value="0.11820652173913043" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/layout/activity_registration.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/layout/activity_vaccine_result.xml" value="0.1" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/layout/fragment_covid_cases.xml" value="0.10461956521739131" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/layout/fragment_health_status.xml" value="0.10461956521739131" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/layout/vaccination_info_item.xml" value="0.1" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1109375" />
+        <entry key="..\:/Users/Himanshu/AndroidStudioProjects/Covid19Tracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1109375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HealthStatus.HealthStatusFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Your Health Status"
+        android:textColor="@color/colorTextPrimary"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:fillViewport="true"
+        tools:ignore="ScrollViewCount"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Suffering from Cough?"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup1">
+
+                    <RadioButton
+                        android:id="@+id/yes1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/no1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Suffering from Fever"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup2">
+
+                    <RadioButton
+                        android:id="@+id/yes2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/no2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Difficulty in Breathing?"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup3">
+
+                    <RadioButton
+                        android:id="@+id/yes3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/no3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Loss of Smell?"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup4">
+
+                    <RadioButton
+                        android:id="@+id/yes4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp" />
+
+                    <RadioButton
+                        android:id="@+id/no4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Loss of Taste?"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup5">
+
+                    <RadioButton
+                        android:id="@+id/yes5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/no5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Suffering from Diarrhoea?"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup6">
+
+                    <RadioButton
+                        android:id="@+id/yes6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/no6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Soar Throat?"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup7">
+
+                    <RadioButton
+                        android:id="@+id/yes7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/no7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Have You traveled anywhere internationally in the last 28-45 days? "
+                    android:textColor="@color/white"
+                    android:maxLines="@integer/material_motion_duration_long_2"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup8">
+
+                    <RadioButton
+                        android:id="@+id/yes8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/no8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Have you been in contact with any person who had a recent travel history from any other country?"
+                    android:textColor="@color/white"
+                    android:maxLines="@integer/material_motion_duration_long_2"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup9">
+
+                    <RadioButton
+                        android:id="@+id/yes9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/no9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Have you been in contact with any person who has been detected COVID-19 positive?"
+                    android:textColor="@color/white"
+                    android:maxLines="@integer/material_motion_duration_long_2"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup10">
+
+                    <RadioButton
+                        android:id="@+id/yes10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/no10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Have you been in contact with any person who has further been in contact with covid-19
+                        positive patient?"
+                    android:maxLines="@integer/material_motion_duration_long_2"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioGroup11">
+
+                    <RadioButton
+                        android:id="@+id/yes11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <RadioButton
+                        android:id="@+id/no11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"/>
+
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/healthStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Check Your Health Status"
+                    android:background="@drawable/background_button"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"/>
+            </LinearLayout>
+
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>
