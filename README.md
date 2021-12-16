@@ -16,3 +16,7 @@ Users can find the nearest Vaccine Centers by typing the pin code of their area.
 * Android SDK 21-31
 
 # Preview
+<p float="left">
+<img src="https://github.com/Himanshu328/Covid-Tracker/blob/master/home.jpg" alt="alt text" width="300" height="500">
+<img src="https://github.com/Himanshu328/Covid-Tracker/blob/master/vaccine.jpg" alt="alt text" width="300" height="500">
+</p>
