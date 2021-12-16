@@ -17,6 +17,6 @@ Users can find the nearest Vaccine Centers by typing the pin code of their area.
 
 # Preview
 <p float="left">
-<img src="https://github.com/Himanshu328/Covid-Tracker/blob/master/home.jpg" alt="alt text" width="300" height="500">
-<img src="https://github.com/Himanshu328/Covid-Tracker/blob/master/vaccine.jpg" alt="alt text" width="300" height="500">
+<img src="https://github.com/Himanshu328/Covid-Tracker/blob/master/home.jpeg" alt="alt text" width="300" height="500">
+<img src="https://github.com/Himanshu328/Covid-Tracker/blob/master/vaccine.jpeg" alt="alt text" width="300" height="500">
 </p>
